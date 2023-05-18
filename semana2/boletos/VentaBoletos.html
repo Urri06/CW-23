@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+</head>
+<body bgcolor="170680">
+    <font color="FFFFFF">
+    
+    <!--IMAGENES Y BIENVENIDA-->
+    <h1 align="center">＊*•̩̩͙✩•̩̩͙*˚ Ticketmaster ˚*•̩̩͙✩•̩̩͙*˚＊</h1>
+    <h5 align="center">100% real no feik</h5>
+    <img src="https://cdn.forbes.com.mx/2022/02/experiencias-inmersivas-ciudad-de-Mexico-640x360.jpg" alt="concierto1" width="340px" height="200 px">
+    <img src="https://www.elsoldemexico.com.mx/incoming/qrvd4q-pexels-harrison-haines-3172566.jpg/ALTERNATES/LANDSCAPE_768/pexels-harrison-haines-3172566.jpg"
+     alt="concierto1" width="320px" height="200 px">
+    <img src="https://www.bbva.com/wp-content/uploads/2020/05/festival2.jpg" alt="concierto1" width="320px" height="200 px">
+    <img src="https://i.blogs.es/503a9a/fotografia-concierto/1366_2000.jpg" alt="concierto1" width="320px" height="200 px">
+    <form action="Boletos.php" method="post" target="_blank">
+
+        <fieldset>
+            <legend> <strong>Datos de tu evento</strong> </legend>
+
+            <label for="Nombre"> Nombre:
+                <input type="text" placeholder="Isaac Urrutia" name="Nombre" />
+            </label> <br> <br>
+
+            <label for="Artista">Artista: </label>
+            <select name="Artista">
+                <option value="Rosalía"> Rosalía </option>
+                <option value="Billie Eilish"> Billie Eilish </option>
+                <option value="Maneskin"> Maneskin </option>
+                <option value="Kali Uchis">  Kali Uchis </option>
+                <option value="Bruses"> Bruses </option>
+                <option value="The Marías"> The Marías </option>
+            </select><br> <br>
+
+            <label for="Fecha" required> Día del evento 
+                <input type="date" name="Fecha" required/>
+            </label><br> <br>
+
+            <label for="Zona" >Zona: </label>
+            <select name="Zona">
+                <option value="General A"> General A </option>
+                <option value="General B"> General B</option>
+                <option value="General B"> Bronce</option>
+                <option value="Oro"> Oro </option>
+                <option value="Platino">  Platino </option>
+                <option value="Balcón"> Balcón </option>
+            </select><br> <br>
+
+            <label for="Boletos" required> Número de Boletos:
+                <input type="radio" name="Boletos" value="1" required/> 1 
+                <input type="radio" name="Boletos" value="2" required /> 2 
+                <input type="radio" name="Boletos" value="3" required/> 3 
+                <input type="radio" name="Boletos" value="4" required/> 4 
+                <input type="radio" name="Boletos" value="5" required/> 5 
+                <input type="radio" name="Boletos" value="6" required/> 6 
+                <input type="radio" name="Boletos" value="7" required/> 7 
+                <input type="radio" name="Boletos" value="8" required/> 8 
+                <input type="radio" name="Boletos" value="9" required/> 9 
+                <input type="radio" name="Boletos" value="10" required/> 10
+                <input type="radio" name="Boletos" value="11" required/> 11 
+                <input type="radio" name="Boletos" value="12" required /> 12 
+                <input type="radio" name="Boletos" value="13" required/> 13 
+                <input type="radio" name="Boletos" value="14" required/> 14 
+                <input type="radio" name="Boletos" value="15" required/> 15  
+            </label> <br> <br>
+
+            <label for="Lugar" required> <strong>Lugar </strong> <br>
+                <input type="radio" name="Lugar" value="Foro Sol" required/> Foro Sol <br>
+                <input type="radio" name="Lugar" value="Palacio de los Deportes" required/> Palacio de los Deportes <br>
+                <input type="radio" name="Lugar" value="Auditorio Nacional" required/> Auditorio Nacional <br>
+                <input type="radio" name="Lugar" value="Teatro Metropolitan" required/> Teatro Metropolitan <br>
+            </label> <br> <br>
+
+            <label for="Extras"> Extras:<br>
+                <input type="checkbox" name="Extras1" value="Pase VIP"/> Pase VIP <br>
+                <input type="checkbox" name="Extras2" value="Combo comida"/> Combo comida <br>
+                <input type="checkbox" name="Extras3" value="Estacionamiento"/> Estacionamiento <br>
+            </label> <br> <br>
+        </fieldset>
+        <button type="submit">Enviar</button>
+        <br><br>
+    </form>
+</body>
+</html>
