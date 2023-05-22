@@ -1,0 +1,10 @@
+/* FUENTES */
+@font-face {
+    font-family: "Playball";
+    src: url('./fonts/Playball.ttf');
+}
+
+.titulo{
+    font-family: "Playball",serif;
+    color:beige;
+}
