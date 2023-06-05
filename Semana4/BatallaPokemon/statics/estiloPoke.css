@@ -1,0 +1,44 @@
+@font-face {
+    font-family: "Titulo";
+    src: url('./fonts/BlackRoseItalicDEMO.ttf');
+}
+
+
+*{
+    margin: 10px;
+    padding: 10px;
+}
+body{
+    background-image: url("https://i.pinimg.com/564x/3d/fc/b6/3dfcb6e6dc6c6e738b69205ce51438a4.jpg");
+}
+h1{
+    font-family: "Titulo";
+    color: beige;
+    font-size: 4rem;
+    position: sticky;
+}
+
+
+div.title{
+    background-image: url("https://i.pinimg.com/564x/95/7a/39/957a39633ca6fba2e9ec3ed599cadd27.jpg");  
+    display: inline-block;
+    display: block;
+    font-family: "Titulo";
+    align-content: center;
+    justify-content: center;
+
+}
+div#pelea{
+    background-image: url("https://i.pinimg.com/564x/95/7a/39/957a39633ca6fba2e9ec3ed599cadd27.jpg");  
+    display: inline-block;
+    display: block;
+    font-family: "Titulo";
+}
+div.tarjeta1{
+    background-image: url("https://i.pinimg.com/564x/95/7a/39/957a39633ca6fba2e9ec3ed599cadd27.jpg");
+    color: beige;
+    font-size: 1.3rem;
+    display: inline-block;
+    display: block;
+    text-align: center;
+}
