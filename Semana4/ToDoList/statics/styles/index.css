@@ -1,0 +1,43 @@
+body{
+    background-image: url("https://i.pinimg.com/564x/12/0c/eb/120ceba93ceef1eadd4b7131065629a1.jpg");
+}
+
+nav{
+    background-color: #98BF64;
+}
+main{
+    position: relative;
+    display: inline-block;
+    background-color: #98BF64;
+    left: 30%;
+    top: 100px;
+}
+article{
+    background-color: rgb(253, 216, 167);
+    margin: 2%;
+    padding: 2%;
+}
+.Titulo{
+    font-size: 1.5rem;
+} 
+
+.Eliminar{
+    position: relative;
+    display: inline-block;
+    height: auto;
+    left: 49%;
+    background-color: rgb(240, 158, 158);
+    margin: 2%;
+    padding: 2%;
+    
+}
+
+.Completada{
+    position: relative;
+    display: inline-block;
+    height: auto;
+    left: 48%;
+    background-color: rgb(174, 240, 158);
+    margin: 2%;
+    padding: 2%;
+}

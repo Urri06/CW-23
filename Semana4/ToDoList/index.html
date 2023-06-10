@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do List</title>
+    <!-- <link rel="shortcut icon" href="https://getbootstrap.com/docs/5.3/assets/brand/bootstrap-logo.svg" type="image/svg"> -->
+    <link rel="stylesheet" href="./libs/bootstrap-5.3.0-alpha3-dist/css/bootstrap.css">
+    <link rel="stylesheet" href="./statics/styles/index.css">
+    <link rel="icon" type="image/x-icon" href="./statics/icon.png">
+    
+</head>
+
+<body> -->
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg sticky-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="https://cdn2.iconfinder.com/data/icons/business-office-icons/256/To-do_List-512.png" alt="Logo" width="30"
+                    height="24" class="d-inline-block align-text-top">
+                To Do List
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#formulario">Formulario</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#ranking">Tareas</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav> 
+
+    <!-- Principal -->
+     <main>
+        <div class="container my-3">
+            <div class="row">
+                <!-- Formulario -->
+                <div class="col-12 col-md-4">
+                    <div id="formulario">
+                        <h1 class="h1">Ingrese tarea</h1>
+                        <!-- <form > -->
+                            <div class="form-floating mb-3">
+                                <input type="text" class="form-control" id="entradaMat" name="Tara"
+                                    placeholder="Tarea" required autocomplete="off">
+                                <label for="cancion" class="form-label">Tarea</label>
+                            </div>
+                            <div class="form-floating mb-3">
+                                <select for="materia" class="form-label form-control" for="materia" id="materia" name="materia"
+                                placeholder="Materia" autocomplete="off">
+                                    <option value="Matematicas"> Matematicas </option>
+                                    <option value="Biología"> Biología </option>
+                                    <option value="Literatura"> Literatura </option>
+                                    <option value="E.F."> E.F. </option>
+                                    <option value="Lengua Extranjera"> Lengua Extranjera </option>
+                                    <option value="Orientación"> Orientación </option>
+                                    <option value="Historia"> Historia </option>
+                                    <option value="Quimica"> Quimica </option>
+                                    <option value="Salud"> Salud </option>
+                                    <option value="Psicología"> Psicología </option>
+                                    <option value="Psicología"> Psicología </option>
+                                    <option value="Otro" id="Otro"> Otro </option>
+                                </select>
+                                
+                            </div>
+                            <div class="d-grid gap-2">
+                                <div class="btn btn-success" id="Agregar">Agregar</div>
+                                <button class="btn btn-light" type="reset">Limpiar</button>
+                            </div>
+                        <!-- </form> -->
+                    </div>
+                </div>
+
+
+                <div class="col-12 col-md-8">
+                    <section id="ranking" class="Lista">
+                        <h1 class="display-1">Lista tareas</h1>
+                        <!-- Tabla -->
+                        <div class="w-100 overflow-x-auto" id="ingresar">
+                            <div></div>
+                        </div>
+
+                    </section>
+            </div>
+        </div>
+    </main>
+
+
+    <script src="./dynamics/js/ToDoList.js"></script>
+</body>
+
+</html>
